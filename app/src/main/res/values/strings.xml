@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">IDS Demo</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="text_image"> ảnh</string>
+
+    <!--Chuỗi rỗng-->
+    <string name="empty">...</string>
+    <string name="comma">", "</string>
+
+    <string name="nav_drawer_open">Open</string>
+    <string name="nav_drawer_close">Close</string>
+
+    <string name="title_tab_new_assign">Mới tải</string>
+    <string name="title_tab_doing_assign">Đang làm</string>
+    <string name="title_tab_finish_assign">Hoàn thành</string>
+
+    <string name="title_notify_uploading">Đang Upload dữ liệu</string>
+    <string name="title_notify_upload_finish">Đã đồng bộ thành công</string>
+
+    <string name="message_no_data">Rỗng...</string>
+    <string name="message_error_unknown">Có lỗi xảy ra.</string>
+    <string name="message_error_plus">Thất bại, lỗi: </string>
+    <string name="message_error_server_plus">Thất bại, lỗi máy chủ: </string>
+    <string name="message_error_task_running">Thất bại, tác vụ đang chạy. Đợi trong giây lát</string>
+    <string name="message_success">Thành công.</string>
+    <string name="message_cancel">Đã hủy.</string>
+    <string name="message_connection_map_fail">Kết nối bản đồ thất bại.</string>
+
+    <string name="message_not_allow_edit_because_uploaded">Không cho phép sửa. Đã tải lên server</string>
+    <string name="message_uploading_assign">%1$s Thành công, %2$s Thất bại</string>
+    <string name="message_delete_success">Xóa thành công %s dòng</string>
+
+    <string name="error_field_required">Không để trống</string>
+    <string name="error_field_positive_number">Số phải >0</string>
+
+    <string name="error_new_password_equals">Mật khẩu xác nhận phải trùng mật khẩu mới</string>
+    <string name="error_image_type_unselected">Chưa chọn kiểu ảnh</string>
+    <string name="error_coordinate_required">Chưa có Tọa độ. hãy bật GPS</string>
+
+    <string name="prompt_expired_date">"Ngày hết hạn "</string>
+    <string name="prompt_outlet">"Cửa hàng "</string>
+    <string name="prompt_outlet_name">"Tên cửa hàng "</string>
+    <string name="prompt_city">"Tỉnh/ Thành phố "</string>
+    <string name="prompt_district">"Quận/ Huyện "</string>
+    <string name="prompt_address">"Địa chỉ "</string>
+    <string name="prompt_latitude">"Latitude "</string>
+    <string name="prompt_longitude">"Longitude "</string>
+    <string name="prompt_coordinates">"Tọa độ "</string>
+    <string name="prompt_old_password">"Password cũ "</string>
+    <string name="prompt_new_password">"Password mới "</string>
+    <string name="prompt_confirm_password">"Xác nhận password mới "</string>
+    <string name="prompt_advantage">"Thuận lợi "</string>
+    <string name="prompt_disadvantage">"Khó khăn "</string>
+    <string name="prompt_suggestion">"Đề nghị "</string>
+    <string name="prompt_product">"Sản phẩm "</string>
+    <string name="prompt_number">"Số lượng "</string>
+    <string name="prompt_retail_price">"Giá bán lẻ "</string>
+    <string name="prompt_product_name">"Tên sản phẩm "</string>
+    <string name="prompt_color">"Màu sắc "</string>
+    <string name="prompt_price">"Giá "</string>
+    <string name="prompt_server_time">"Giờ máy chủ "</string>
+    <string name="prompt_attendance_type">"Loại chấm công "</string>
+    <string name="prompt_location">"Tọa độ "</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_add_assign">Thêm assign</string>
+    <string name="action_add_outlet">Thêm mới cửa hàng</string>
+    <string name="action_add_attendance">Chấm công</string>
+    <string name="action_search_assign">Tìm assign</string>
+    <string name="action_change_password">Đổi mật khẩu</string>
+    <string name="action_logout">Đăng xuất</string>
+    <string name="action_list_assign">Danh sách phân công</string>
+    <string name="action_save">Lưu</string>
+    <string name="action_capture">Chụp ảnh</string>
+    <string name="action_attendance">Chấm công</string>
+    <string name="action_product_shown">Trưng bày</string>
+    <string name="action_note">Ghi chú</string>
+    <string name="action_yes">Đồng ý</string>
+    <string name="action_no">Từ chối</string>
+    <string name="action_reset_all_data">Khởi tạo lại toàn bộ dữ liệu</string>
+    <string name="action_add_attendance_image">Chụp ảnh chấm công</string>
+    <string name="action_location">Vị trí hiện tại</string>
+    <string name="action_download_assign">Tải phân công</string>
+    <string name="action_upload_doing_assign">Gởi tất cả dữ liệu Đang làm</string>
+    <string name="action_add_product">Tạo mới sản phẩm</string>
+    <string name="action_add_comment">Thêm nhận xét</string>
+    <string name="action_upload_finish">Hoàn thành &amp; Upload</string>
+    <string name="action_open_map">Bản đồ</string>
+    <string name="action_clear_new_assign">Xóa phân công mới</string>
+
+    <string name="title_activity_user_info">Tài khoản</string>
+    <string name="title_activity_list_assign">Phân công</string>
+    <string name="title_activity_assign_info">Thông tin phân công</string>
+    <string name="title_activity_add_assign">Thêm phân công</string>
+    <string name="title_activity_add_assign_image">Thêm ảnh phân công</string>
+    <string name="title_activity_attendance">Chấm công ra vào</string>
+    <string name="title_activity_assign_attendance">Chấm công %s</string>
+    <string name="title_activity_add_comment">Thêm nhận xét</string>
+    <string name="title_activity_add_product_shown">Thêm trưng bày</string>
+    <string name="title_activity_init_data">Khởi tạo dữ liệu ban đầu</string>
+    <string name="title_activity_change_password">Đổi mật khẩu</string>
+    <string name="title_activity_add_product">Thêm sản phẩm</string>
+    <string name="title_activity_list_comment">Nhận xét</string>
+    <string name="title_activity_update_comment">Sửa nhận xét</string>
+    <string name="title_activity_update_product_shown">Sửa trưng bày</string>
+    <string name="title_activity_list_product">Sản phẩm</string>
+    <string name="title_activity_search_assign">Tìm phân công</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

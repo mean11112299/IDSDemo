@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    `<!--list item, title lớn-->
+    <dimen name="app_list_item_height">72dp</dimen>
+    <!-- list item cho Navigation Drawer -->
+    <dimen name="app_list_item_height_small">48dp</dimen>
+    <!--padding top, bottom mỗi dòng-->
+    <dimen name="app_list_item_vertical_padding">16dp</dimen>
+    <!-- padding top, bottom Navigation Drawer -->
+    <dimen name="app_list_item_vertical_padding_small">12dp</dimen>
+
+    <!--ảnh đầu mỗi dòng-->
+    <dimen name="app_list_item_icon_size">40dp</dimen>
+    <!-- ảnh đầu Navigation Drawer -->
+    <dimen name="app_list_item_icon_size_small">24dp</dimen>
+    <!--padding top, bottom mỗi dòng-->
+    <dimen name="app_list_item_icon_vertical_margin">16dp</dimen>
+    <!-- padding top, bottom Navigation Drawer -->
+    <dimen name="app_list_item_icon_vertical_margin_small">12dp</dimen>
+
+</resources>

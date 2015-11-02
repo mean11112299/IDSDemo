@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.imark.nghia.idsdemo.ui.attendance.AttendanceActivity">
+
+    <item android:id="@+id/action_add_attendance"
+        android:title="@string/action_add_attendance"
+        app:showAsAction="always|withText" />
+
+    <item android:id="@+id/action_add_attendance_image"
+        android:title="@string/action_add_attendance_image"
+        android:icon="@drawable/ic_camera_alt_black_36dp"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_location"
+        android:title="@string/action_location" />
+
+
+</menu>

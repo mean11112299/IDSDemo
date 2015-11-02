@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.imark.nghia.idsdemo.ui.assign.ListAssignActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/toolbar_Main"
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--Tab header
+            app:tabMode="scrollable"-->
+        <android.support.design.widget.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tabLayout_Main"
+            android:textStyle="bold"
+            android:background="@color/app_primary"
+            android:fillViewport="false"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/app_text_primary"
+            app:tabTextColor="@color/app_text_secondary"
+            app:tabSelectedTextColor="@color/app_text_primary">
+        </android.support.design.widget.TabLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!--View Pager chứa Views-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager_Main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

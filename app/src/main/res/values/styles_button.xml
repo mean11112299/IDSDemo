@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Nút in hoa, in đậm, phẳng-->
+    <style name="app_button" parent="Base.Widget.AppCompat.Button">
+        <item name="android:textColor">@color/app_text_primary.light</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+</resources>

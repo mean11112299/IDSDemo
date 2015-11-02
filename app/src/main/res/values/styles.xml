@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--Apply All TextView - Không chạy, không hiểu-->
+        <!--<item name="android:textViewStyle">@style/appTextBody1</item>-->
+        <item name="android:buttonStyle">@style/app_button</item>
+
+        <!--<item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>-->
+
+        <!-- Sử dụng Appcompat V7 Properties -->
+        <item name="colorPrimary">@color/app_primary</item>
+        <item name="colorPrimaryDark">@color/app_color_primary_dark</item>
+        <item name="colorAccent">@color/app_color_accent</item>
+        <item name="colorControlActivated">@color/app_control_activated</item>
+        <item name="colorControlHighlight">@color/app_control_highlight_background</item>
+        <!--<item name="textColorPrimary">@color/app_text_primary.light</item>-->
+    </style>
+
+    <!-- Floating Action Button -->
+    <style name="fabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/app_fab_compat_margin</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">6dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <!-- ToolBar -->
+    <style name="appToolBarTheme" parent="">
+        <item name="android:textColorPrimary">@color/app_text_accent.light</item>
+        <!-- màu Menu Icon -->
+        <item name="android:textColorSecondary">@color/app_text_accent.light</item>
+    </style>
+
+    <!-- Menu Context -->
+    <style name="appMenuPopupTheme" parent="Widget.AppCompat.Light.PopupMenu">
+        <item name="android:textColorPrimary">@color/app_text_primary.light</item>
+        <!-- màu Menu Icon -->
+        <item name="android:textColorSecondary">@color/app_text_secondary.light</item>
+    </style>
+
+
+
+</resources>

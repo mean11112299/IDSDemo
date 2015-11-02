@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Kích thước Form-->
+    <dimen name="app_label_text_size">14sp</dimen>
+    <dimen name="app_label_horizontal_padding">4dp</dimen>
+
+    <!--Dùng cho nhóm Input - Gồm cả Title+Input-->
+    <style name="app_input_group">
+        <item name="android:paddingBottom">@dimen/app_spacing_medium</item>
+    </style>
+
+    <!--Dùng cho label của Input-->
+    <style name="app_input_label">
+        <item name="android:paddingLeft">@dimen/app_label_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/app_label_horizontal_padding</item>
+        <item name="android:textSize">@dimen/app_text_caption</item>
+        <!--<item name="android:textStyle">bold</item>-->
+        <item name="android:textColor">@color/app_text_hint_disabled.light</item>
+    </style>
+
+
+</resources>
