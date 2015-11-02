@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">IDS Core</string>
+
+    <string name="title_dialog_gps">Mở GPS</string>
+    <string name="title_dialog_waiting">Đang thực hiện</string>
+    <string name="title_dialog_question">Hỏi</string>
+
+    <string name="message_dialog_open_gps">GPS chưa mở, bạn có muốn mở không?</string>
+    <string name="message_dialog_open_network">Mạng kết nối chưa mở, bạn có muốn mở không?</string>
+    <string name="message_dialog_waiting">Đang thực hiện, xin chờ trong giây lát</string>
+    <string name="message_dialog_waiting_get_data">Đang lấy dữ liệu, xin chờ trong giây lát</string>
+    <string name="message_dialog_waiting_post_data">Đang upload dữ liệu, xin chờ trong giây lát</string>
+    <string name="message_dialog_logout">Bạn sẽ mất hết dữ liệu nếu đăng xuất. Tiếp tục đăng xuất?</string>
+    <string name="message_dialog_reset_data">Dữ liệu sẽ bị xóa toàn bộ. Bạn có chắc không?</string>
+
+    <string name="action_cancel">Cancel</string>
+    <string name="action_settings">Settings</string>
+</resources>
