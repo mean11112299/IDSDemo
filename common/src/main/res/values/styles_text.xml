@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Chữ lớn, khẩu hiệu, gây chú ý mạnh-->
+    <!--Header xxxx large-->
+    <style name="appTextDisplay4">
+        <item name="android:textSize">@dimen/app_text_display_4</item>
+        <item name="android:textColor">@color/app_text_secondary.dark</item>
+    </style>
+
+    <!--Header xxx large-->
+    <style name="appTextDisplay3">
+        <item name="android:textSize">@dimen/app_text_display_3</item>
+        <item name="android:textColor">@color/app_text_secondary.dark</item>
+    </style>
+
+    <!--Header xx large-->
+    <style name="appTextDisplay2">
+        <item name="android:textSize">@dimen/app_text_display_2</item>
+        <item name="android:textColor">@color/app_text_secondary.dark</item>
+    </style>
+
+    <!--Header x large-->
+    <style name="appTextDisplay1">
+        <item name="android:textSize">@dimen/app_text_display_1</item>
+        <item name="android:textColor">@color/app_text_secondary.dark</item>
+    </style>
+
+    <!--dùng Đầu Trang, đầu Activity (ActionBar) -->
+    <style name="appTextHeadline">
+        <item name="android:textSize">@dimen/app_text_headline</item>
+        <item name="android:textColor">@color/app_text_primary.dark</item>
+    </style>
+
+    <!--Tiêu đề nhỏ - Nổi bật mỗi dòng - nội dung chính (ListView) -->
+    <style name="appTextTitle">
+        <item name="android:textSize">@dimen/app_text_title</item>
+        <item name="android:textColor">@color/app_text_primary.dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Header nhỏ, phân cách nhóm Item (List Item)-->
+    <style name="appTextSubhead">
+        <item name="android:textSize">@dimen/app_text_body</item>
+        <item name="android:textColor">@color/app_text_primary.dark</item>
+    </style>
+
+    <!--Chữ chính-->
+    <style name="appTextBody1">
+        <item name="android:textSize">@dimen/app_text_body</item>
+        <item name="android:textColor">@color/app_text_primary.dark</item>
+    </style>
+
+    <!--Chữ chính - In đậm-->
+    <style name="appTextBody2">
+        <item name="android:textSize">@dimen/app_text_body</item>
+        <item name="android:textColor">@color/app_text_primary.dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Chữ phụ nhỏ, dùng dưới footer(dấu trang) -->
+    <style name="appTextCaption">
+        <item name="android:textSize">@dimen/app_text_caption</item>
+        <item name="android:textColor">@color/app_text_secondary.dark</item>
+    </style>
+
+    <!--Chữ của nút-->
+    <style name="appTextButton">
+        <item name="android:textSize">@dimen/app_text_button</item>
+        <item name="android:textColor">@color/app_text_primary.dark</item>
+    </style>
+
+
+    <!--region light theme-->
+    <!--Header xxxx large-->
+    <style name="appTextDisplay4.light" parent="appTextDisplay4">
+        <item name="android:textColor">@color/app_text_secondary.light</item>
+    </style>
+
+    <!--Header xxx large-->
+    <style name="appTextDisplay3.light" parent="appTextDisplay3">
+        <item name="android:textColor">@color/app_text_secondary.light</item>
+    </style>
+
+    <!--Header xx large-->
+    <style name="appTextDisplay2.light" parent="appTextDisplay2">
+        <item name="android:textColor">@color/app_text_secondary.light</item>
+    </style>
+
+    <!--Header x large-->
+    <style name="appTextDisplay1.light" parent="appTextDisplay1">
+        <item name="android:textColor">@color/app_text_secondary.light</item>
+    </style>
+
+    <!--dùng Đầu Trang, đầu Activity (ActionBar) -->
+    <style name="appTextHeadline.light" parent="appTextHeadline">
+        <item name="android:textColor">@color/app_text_primary.light</item>
+    </style>
+
+    <!--Tiêu đề nhỏ - Nổi bật mỗi dòng - nội dung chính (ListView) -->
+    <style name="appTextTitle.light" parent="appTextTitle">
+        <item name="android:textColor">@color/app_text_primary.light</item>
+    </style>
+
+    <!--Header nhỏ, phân cách nhóm Item (List Item)-->
+    <style name="appTextSubhead.light" parent="appTextSubhead">
+        <item name="android:textColor">@color/app_text_primary.light</item>
+    </style>
+
+    <!--Chữ chính-->
+    <style name="appTextBody1.light" parent="appTextBody1">
+        <item name="android:textColor">@color/app_text_primary.light</item>
+    </style>
+
+    <!--Chữ chính - In đậm-->
+    <style name="appTextBody2.light" parent="appTextBody2">
+        <item name="android:textColor">@color/app_text_primary.light</item>
+    </style>
+
+    <!--Chữ phụ nhỏ, dùng dưới footer(dấu trang) -->
+    <style name="appTextCaption.light" parent="appTextCaption">
+        <item name="android:textColor">@color/app_text_secondary.light</item>
+    </style>
+
+    <!--Chữ của nút-->
+    <style name="appTextButton.light" parent="appTextButton">
+        <item name="android:textColor">@color/app_text_primary.light</item>
+    </style>
+    <!--endregion-->
+
+</resources>

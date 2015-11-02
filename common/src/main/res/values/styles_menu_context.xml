@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Menu Context -->
+    <style name="appMenuPopupTheme" parent="Widget.AppCompat.Light.PopupMenu">
+        <!--màu chữ-->
+        <item name="android:textColorPrimary">@color/app_text_primary.light</item>
+        <!-- màu Menu Icon -->
+        <item name="android:textColorSecondary">@color/app_text_secondary.light</item>
+
+        <item name="android:background">@color/app_background</item>
+    </style>
+
+
+</resources>

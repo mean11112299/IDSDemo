@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="appTheme" parent="appTheme.Base">
+
+    </style>
+
+    <style name="appTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--font mặc định-->
+        <!--<item name="android:typeface">monospace</item>-->
+        <!--Apply All TextView-->
+        <item name="android:textViewStyle">@style/appTextBody1.light</item>
+        <!--<item name="android:buttonStyle">@style/app_button</item>-->
+        <!--<item name="actionBarTabTextStyle"></item>-->
+        <item name="android:actionBarStyle">@style/appToolbar</item>
+
+        <!--<item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>-->
+
+        <!-- Sử dụng Appcompat V7 Properties -->
+        <item name="colorPrimary">@color/app_primary</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark</item>
+        <item name="colorAccent">@color/app_accent</item>
+        <item name="colorControlActivated">@color/app_control_activated</item>
+        <item name="colorControlHighlight">@color/app_control_highlight_background</item>
+    </style>
+
+    <!--đường cách ngang-->
+    <style name="app_divider_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/app_text_dividers.light</item>
+    </style>
+
+</resources>

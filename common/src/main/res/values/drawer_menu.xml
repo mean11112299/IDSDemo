@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Kích cỡ-->
+    <dimen name="app_drawer_margin_right">56dp</dimen>
+    <!-- list item cho Navigation Drawer -->
+    <dimen name="app_drawer_item_height">48dp</dimen>
+    <!-- padding top, bottom Navigation Drawer -->
+    <dimen name="app_drawer_item_padding">12dp</dimen>
+    <!-- ảnh đầu Navigation Drawer -->
+    <dimen name="app_drawer_item_icon_size">24dp</dimen>
+    <!-- padding top, bottom Navigation Drawer -->
+    <dimen name="app_drawer_item_icon_padding_left">12dp</dimen>
+    <!--text-->
+    <dimen name="app_drawer_item_title_padding_left">72dp</dimen>
+    <!--divider top, bottom-->
+    <dimen name="app_drawer_divider_vertical_padding">8dp</dimen>
+    <dimen name="app_drawer_divider_height">1px</dimen>
+
+    <!--màu sắt-->
+    <!--màu khảng cách-->
+
+
+
+</resources>

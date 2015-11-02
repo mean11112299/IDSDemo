@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Tab header Selector-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/app_text_primary.light"  />
+
+    <item android:state_focused="true" android:color="@color/app_accent"/>
+    <item android:state_pressed="true" android:color="@color/app_accent"/>
+    <item android:state_selected="true" android:color="@color/app_accent"/>
+    <item android:state_hovered="true" android:color="@color/app_accent"/>
+    <item android:state_activated="true" android:color="@color/app_accent"/>
+
+</selector>

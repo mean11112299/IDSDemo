@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_assignment">Mới</string>
+    <string name="doing_assignment">Đang Làm</string>
+    <string name="finish_assignment">Hoàn thành</string>
+</resources>

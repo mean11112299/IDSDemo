@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--https://www.google.com/design/spec/components/text-fields.html#text-fields-single-line-text-field-->
+
+    <!--Kích thước Form-->
+    <dimen name="app_form_padding_top">12dp</dimen>
+    <dimen name="app_form_padding_bottom">8dp</dimen>
+    <dimen name="app_form_padding_horizontal">12dp</dimen>
+    <dimen name="app_form_icon_size">24dp</dimen>
+    <dimen name="app_form_icon_margin_vertical">12dp</dimen>
+    <dimen name="app_form_icon_margin_right">36dp</dimen>
+
+
+    <!--Title + Input Type-->
+    <!--Dùng cho nhóm Input - Gồm cả Title+Input-->
+    <style name="app_form_content">
+        <item name="android:paddingBottom">@dimen/app_form_padding_bottom</item>
+    </style>
+
+    <!--Icon + Input Form-->
+    <style name="app_form_icon">
+        <item name="android:layout_width">@dimen/app_form_icon_size</item>
+        <item name="android:layout_height">@dimen/app_form_icon_size</item>
+        <item name="android:layout_marginTop">@dimen/app_form_padding_top</item>
+        <item name="android:layout_marginLeft">@dimen/app_form_padding_horizontal</item>
+        <item name="android:layout_marginRight">@dimen/app_form_padding_horizontal</item>
+    </style>
+
+
+    <!--Dùng cho label của Input-->
+    <style name="app_form_label" parent="app_form_label_clear">
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+    </style>
+
+    <!--dùng cho label của Input Clear-->
+    <style name="app_form_label_clear">
+        <item name="android:paddingTop">@dimen/app_form_padding_top</item>
+        <item name="android:textSize">@dimen/app_text_caption</item>
+        <item name="android:textColor">@color/app_text_hint_disabled.light</item>
+    </style>
+
+    <!--dùng cho mọi input-->
+    <style name="app_form_input_clear" parent="android:Widget.EditText">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/selector_text_color</item>
+        <item name="android:background">@drawable/selector_background</item>
+        <item name="android:gravity">start|fill_vertical</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:paddingTop">@dimen/app_form_padding_top</item>
+        <item name="android:paddingBottom">@dimen/app_form_padding_bottom</item>
+    </style>
+
+    <!--Icon bên phải-->
+    <style name="app_form_sub_icon">
+        <item name="android:layout_marginRight">@dimen/app_form_padding_horizontal</item>
+        <item name="android:layout_marginEnd" tools:targetApi="jelly_bean_mr1">@dimen/app_form_padding_horizontal</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+
+</resources>
